@@ -18,7 +18,7 @@ const Services: React.FC = () => {
           Our Services
         </Typography>
         <Typography variant="h6" className="mt-4">
-          Empowering Your Business with Innovative Technology Solutions
+          Empowering Your Community with Innovative Technology Solutions
         </Typography>
       </Box>
 
@@ -36,31 +36,25 @@ const Services: React.FC = () => {
             </Grid>
             <Grid item xs={12} md={8}>
               <Typography variant="h4" className="text-blue-900 font-bold mb-4">
-                World-Class Full-Stack Development Solutions
+                Effortlessly Manage Recreation Programs and Engage Your
+                Community
               </Typography>
               <Typography variant="body1">
-                At Imagica Labs, we bring your ideas to life with cutting-edge
-                full-stack development. From concept to deployment, our team of
-                experienced developers creates robust, scalable, and
-                user-friendly applications tailored to your business needs.
-                Whether you require front-end finesse or back-end efficiency, we
-                deliver seamless integrations and top-notch performance across
-                all platforms.
+                Communirec is a comprehensive recreation management software
+                designed to streamline the organization, registration, and
+                payment processes for community programs, memberships, and
+                events.
               </Typography>
             </Grid>
 
             {/* Section 2 */}
             <Grid item xs={12} md={8}>
               <Typography variant="h4" className="text-blue-900 font-bold mb-4">
-                Effortless Cloud Computing for a Scalable Future
+                Your Complete Solution for Recreation Program Management
               </Typography>
               <Typography variant="body1">
-                Maximize your business potential with our expert cloud computing
-                services. We help you transition to the cloud smoothly, ensuring
-                your systems are scalable, secure, and ready to handle the
-                demands of the future. Our cloud solutions are designed to
-                reduce costs, improve performance, and provide you with the
-                flexibility to grow without limits.
+                Communirec offers everything you need to manage community
+                programs, memberships, and events seamlessly, all in one place.
               </Typography>
             </Grid>
             <Grid item xs={12} md={4}>
@@ -83,15 +77,12 @@ const Services: React.FC = () => {
             </Grid>
             <Grid item xs={12} md={8}>
               <Typography variant="h4" className="text-blue-900 font-bold mb-4">
-                Scalable Mobile Application Development
+                Insightful Analytics to Grow Community Engagement
               </Typography>
               <Typography variant="body1">
-                In today’s mobile-first world, connecting with your audience
-                through intuitive and engaging mobile applications is crucial.
-                Imagica Labs specializes in creating custom mobile apps that
-                offer a seamless user experience. Whether you need a simple app
-                or a complex mobile solution, we deliver applications that
-                resonate with your users and drive business success.
+                Gain valuable insights into user behavior, program popularity,
+                and engagement trends with Communirec's built-in analytics,
+                enabling data-driven decisions for better community service.
               </Typography>
             </Grid>
           </Grid>

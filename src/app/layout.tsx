@@ -5,9 +5,9 @@ import Head from "next/head";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Imagica Labs Inc.",
+  title: "Communirec",
   description:
-    "Imagica Labs offers full-stack development, cloud computing, and mobile development services to help you grow your business.",
+    "Communirec is a comprehensive recreation management software designed to streamline the organization, registration, and payment processes for community programs, memberships, and events.",
 };
 
 export default function RootLayout({
@@ -18,17 +18,17 @@ export default function RootLayout({
   return (
     <html lang="en">
       <Head>
-        <title>Imagica Labs - IT Consultancy Services</title>
+        <title>Communirec - Recreation Management Software</title>
         <meta
           name="description"
-          content="Imagica Labs offers full-stack development, cloud computing, and mobile development services to help you grow your business."
+          content="Communirec is a comprehensive recreation management software designed to streamline the organization, registration, and payment processes for community programs, memberships, and events."
         />
         <meta
           name="keywords"
-          content="Imagica Labs, IT Consultancy, Full-stack Development, Cloud Computing, Mobile Development"
+          content="Recration Management, Membership Management, Events Management, Community Management"
         />
         <meta name="robots" content="index, follow" />
-        <link rel="canonical" href="https://www.imagicalabs.com" />
+        <link rel="canonical" href="https://www.communirec.com" />
         {/* <link rel="icon" type="image/png" href="/Logo.png" /> */}
         <link
           rel="icon"

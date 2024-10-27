@@ -11,7 +11,7 @@ const ContactUs: React.FC = () => {
       >
         <div>
           <Typography variant="h6" className="font-bold mb-4">
-            Imagica Labs Inc.
+            Communirec
           </Typography>
           <div className="mb-4">
             <div className="flex items-center mb-2">
@@ -20,14 +20,6 @@ const ContactUs: React.FC = () => {
             </div>
             <Typography>L7A 4M2</Typography>
           </div>
-          {/* <div>
-            <div className="flex items-center mb-2">
-              <FlagIcon className="mr-2" fontSize="small" />
-              <Typography>
-                405 TX-121 Suite A250, Lewisville, TX 75057
-              </Typography>
-            </div>
-          </div> */}
         </div>
 
         <div>
@@ -59,7 +51,7 @@ const ContactUs: React.FC = () => {
 
       <div className="border-t border-gray-700 mt-8 pt-4 text-center">
         <Typography variant="body2">
-          © 2024 Imagica Labs inc. All Rights Reserved.
+          © 2024 Communirec inc. All Rights Reserved.
         </Typography>
       </div>
     </footer>

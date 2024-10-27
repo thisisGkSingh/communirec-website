@@ -5,9 +5,9 @@ import { CSSTransition } from "react-transition-group";
 import { handleScroll } from "./utils";
 const TopComponent: React.FC = () => {
   const textArray = [
-    "Innovative full-stack solutions to transform your business.",
-    "Expert cloud services to scale your operations efficiently.",
-    "Custom mobile apps that connect with your audience instantly.",
+    "Manage your communities online. Easier, faster, better.",
+    "Communirec makes it say to manage, find, register and pay for activities online.",
+    "Communirec provides advanced analytics to help you better understand your community needs.",
   ];
 
   const [index, setIndex] = useState(0);
@@ -57,7 +57,7 @@ const TopComponent: React.FC = () => {
             variant="h5"
             sx={{ color: "#fff" }}
           >
-            Contact Us
+            <Button variant="contained">Book a Demo</Button>
           </Link>
         </Button>
       </div>

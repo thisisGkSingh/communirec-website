@@ -16,18 +16,13 @@ import Toolbar from "@mui/material/Toolbar";
 import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 import { handleScroll } from "./utils";
-import Logo from "./Images/Logo.png";
-import Image from "next/image";
+
 interface Props {
-  /**
-   * Injected by the documentation to work in an iframe.
-   * You won't need it on your project.
-   */
   window?: () => Window;
 }
 
 const drawerWidth = 240;
-const navItems = ["Services", "Clients", "Contact Us"];
+const navItems = ["Services", "Book a Demo"];
 
 export default function NavigationBar(props: Props) {
   const { window } = props;
@@ -40,7 +35,7 @@ export default function NavigationBar(props: Props) {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        IMAGICA LABS
+        COMMUNIREC
       </Typography>
       <Divider />
       <List>
@@ -65,7 +60,10 @@ export default function NavigationBar(props: Props) {
     <Box sx={{ display: "flex" }}>
       <CssBaseline />
       <AppBar
-        style={{ background: "transparent", boxShadow: "none" }}
+        style={{
+          background: "transparent",
+          boxShadow: "none",
+        }}
         component="nav"
       >
         <Toolbar>
@@ -79,16 +77,17 @@ export default function NavigationBar(props: Props) {
             <MenuIcon />
           </IconButton>
           <Typography
-            variant="h6"
+            variant="h5"
             component="div"
             sx={{
               flexGrow: 1,
+              fontWeight: 600,
               cursor: "pointer",
               display: { xs: "none", sm: "block" },
             }}
             onClick={() => console.log("Button click")}
           >
-            IMAGICA LABS
+            communirec
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             {navItems.map((item, i) => (
@@ -110,7 +109,7 @@ export default function NavigationBar(props: Props) {
           open={mobileOpen}
           onClose={handleDrawerToggle}
           ModalProps={{
-            keepMounted: true, // Better open performance on mobile.
+            keepMounted: true,
           }}
           sx={{
             display: { xs: "block", sm: "none" },
@@ -123,9 +122,6 @@ export default function NavigationBar(props: Props) {
           {drawer}
         </Drawer>
       </nav>
-      <Box component="main" sx={{ p: 3 }}>
-        <Toolbar />
-      </Box>
     </Box>
   );
 }
