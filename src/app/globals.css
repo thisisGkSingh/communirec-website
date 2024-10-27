@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb));
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.clients-section-background{
+  background-image: (125deg,#32265e 0%,#ad30c1 100%)
+}
+
+.fade-left-enter {
+  opacity: 0;
+  transform: translateX(-50px);
+}
+
+.fade-left-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+.fade-left-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.fade-left-exit-active {
+  opacity: 0;
+  transform: translateX(-50px);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+.astro-container {
+  animation: fadeIn 2s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+
+.text-bold {
+  font-weight: 900 !important; /* Makes the text bold */
+}
+
+.text-highlight {
+  color: #fff; /* White text color */
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.8); /* Subtle text shadow to stand out */
+}
+
+.image-box {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  padding: 50px;
+}

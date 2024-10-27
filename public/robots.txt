@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.imagicalabs.com
+
+# Sitemaps
+Sitemap: https://www.imagicalabs.com/sitemap.xml
