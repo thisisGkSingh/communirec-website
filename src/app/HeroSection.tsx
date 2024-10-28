@@ -1,6 +1,6 @@
-// components/HeroSection.js
+"use client";
 import React from "react";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Link, Typography } from "@mui/material";
 
 const HeroSection = () => {
   return (
@@ -52,6 +52,13 @@ const HeroSection = () => {
           to find, register, and pay for activities online.
         </Typography>
         <Button
+          onClick={() =>
+            window.open(
+              "https://forms.gle/zniK8XhPM9n3rntS8",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
           variant="contained"
           sx={{
             backgroundColor: "#FFFFFF",

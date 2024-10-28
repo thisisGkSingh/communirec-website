@@ -1,4 +1,4 @@
-// components/FacilityManagementSection.js
+"use client";
 import React from "react";
 import { Box, Button, Grid, Typography } from "@mui/material";
 
@@ -89,6 +89,13 @@ const FacilityManagementSection = () => {
           access, and more – under one roof. Save both time and money.
         </Typography>
         <Button
+          onClick={() =>
+            window.open(
+              "https://forms.gle/zniK8XhPM9n3rntS8",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
           variant="contained"
           sx={{
             backgroundColor: "#3366FF",

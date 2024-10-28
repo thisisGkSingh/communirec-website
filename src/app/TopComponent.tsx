@@ -50,6 +50,13 @@ const TopComponent: React.FC = () => {
         >
           Our Services →
         </Button>
+        <Link
+          href="https://forms.gle/zniK8XhPM9n3rntS8"
+          target="_blank"
+          className="text-white mt-4 block"
+        >
+          Book a Demo
+        </Link>
         <Button className="font-bold text-left mb-4" sx={{ color: "#fff" }}>
           <Link
             href="https://forms.gle/zniK8XhPM9n3rntS8"
@@ -57,7 +64,15 @@ const TopComponent: React.FC = () => {
             variant="h5"
             sx={{ color: "#fff" }}
           >
-            <Button variant="contained">Book a Demo</Button>
+            <Button variant="contained">
+              <Link
+                href="https://forms.gle/zniK8XhPM9n3rntS8"
+                target="_blank"
+                className="text-white mt-4 block"
+              >
+                Book a Demo
+              </Link>
+            </Button>
           </Link>
         </Button>
       </div>

@@ -11,7 +11,6 @@ export default function Home() {
   return (
     <div>
       <HeroSection />
-      {/* <TopComponent /> */}
       <NavigationBar />
       <Services />
       <BrandedStoreSection />

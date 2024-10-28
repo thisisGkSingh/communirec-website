@@ -39,7 +39,7 @@ export default function NavigationBar(props: Props) {
       </Typography>
       <Divider />
       <List>
-        {navItems.map((item, i) => (
+        {/* {navItems.map((item, i) => (
           <ListItem key={i} disablePadding>
             <ListItemButton
               onClick={() => handleScroll(item)}
@@ -48,7 +48,7 @@ export default function NavigationBar(props: Props) {
               <ListItemText primary={item} />
             </ListItemButton>
           </ListItem>
-        ))}
+        ))} */}
       </List>
     </Box>
   );
@@ -90,7 +90,7 @@ export default function NavigationBar(props: Props) {
             communirec
           </Typography>
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
-            {navItems.map((item, i) => (
+            {/* {navItems.map((item, i) => (
               <Button
                 onClick={() => handleScroll(item)}
                 key={i}
@@ -98,7 +98,7 @@ export default function NavigationBar(props: Props) {
               >
                 {item}
               </Button>
-            ))}
+            ))} */}
           </Box>
         </Toolbar>
       </AppBar>

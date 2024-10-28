@@ -1,4 +1,4 @@
-// components/BrandedStoreSection.js
+"use client";
 import React from "react";
 import { Box, Button, Typography } from "@mui/material";
 
@@ -41,6 +41,13 @@ const BrandedStoreSection = () => {
               backgroundColor: "#2A5ACC",
             },
           }}
+          onClick={() =>
+            window.open(
+              "https://forms.gle/zniK8XhPM9n3rntS8",
+              "_blank",
+              "noopener,noreferrer"
+            )
+          }
         >
           Learn More
         </Button>
