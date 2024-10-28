@@ -50,7 +50,7 @@ const Services: React.FC = () => {
             {/* Section 2 */}
             <Grid item xs={12} md={8}>
               <Typography variant="h4" className="text-blue-900 font-bold mb-4">
-                Your Complete Solution for Recreation Program Management
+                Your Complete Cloud Solution for Recreation Program Management
               </Typography>
               <Typography variant="body1">
                 Communirec offers everything you need to manage community
