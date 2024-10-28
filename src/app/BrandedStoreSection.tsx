@@ -59,7 +59,7 @@ const BrandedStoreSection = () => {
       >
         <Box
           component="img"
-          src="/branded-store-image.png" // Replace with the path to your image
+          src="https://i.ibb.co/XC7Dd0m/Champion-Center-Courts-1024x684.jpg"
           alt="Branded Store"
           sx={{
             width: "100%",

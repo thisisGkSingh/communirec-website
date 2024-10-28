@@ -1,6 +1,6 @@
 // components/FacilityManagementSection.js
 import React from "react";
-import { Box, Button, Typography } from "@mui/material";
+import { Box, Button, Grid, Typography } from "@mui/material";
 
 const FacilityManagementSection = () => {
   return (
@@ -13,7 +13,6 @@ const FacilityManagementSection = () => {
         backgroundColor: "#F5F7FA",
       }}
     >
-      {/* Left Side - Image Section */}
       <Box
         sx={{
           display: "flex",
@@ -22,10 +21,9 @@ const FacilityManagementSection = () => {
           height: "300px",
         }}
       >
-        {/* Background Images */}
         <Box
           component="img"
-          src="/facility-image1.jpg" // Replace with the path to your image
+          src="https://i.ibb.co/L9y3S9Q/howtobook-cassiepool.jpg"
           alt="Facility Image 1"
           sx={{
             position: "absolute",
@@ -39,7 +37,7 @@ const FacilityManagementSection = () => {
         />
         <Box
           component="img"
-          src="/facility-image2.jpg" // Replace with the path to your image
+          src="https://i.ibb.co/LvfL0p9/438.jpg"
           alt="Facility Image 2"
           sx={{
             position: "absolute",
@@ -51,16 +49,16 @@ const FacilityManagementSection = () => {
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",
             zIndex: 1,
           }}
-        />
+        ></Box>
         <Box
           component="img"
-          src="/facility-image3.jpg" // Replace with the path to your image
+          src="https://i.ibb.co/wS4B2bX/Missy-tennis-pic-e1723124312740.jpg"
           alt="Facility Image 3"
           sx={{
             position: "absolute",
             top: "20px",
             left: "290px",
-            width: "150px",
+            width: "250px",
             height: "200px",
             borderRadius: "8px",
             boxShadow: "0 4px 8px rgba(0, 0, 0, 0.1)",

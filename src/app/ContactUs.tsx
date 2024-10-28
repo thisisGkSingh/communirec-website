@@ -21,18 +21,6 @@ const ContactUs: React.FC = () => {
             <Typography>L7A 4M2</Typography>
           </div>
         </div>
-
-        <div>
-          <Typography variant="h6" className="font-bold mb-4">
-            Services
-          </Typography>
-          <ul className="space-y-2">
-            <li>Full Stack Application Development</li>
-            <li>Mobile Development</li>
-            <li>Cloud services</li>
-          </ul>
-        </div>
-
         <div>
           <Typography variant="h6" className="font-bold mb-4">
             Working Hours
